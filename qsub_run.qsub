@@ -1,0 +1,8 @@
+#!/bin/csh
+#
+#$ -pe smp 5
+#$ -cwd
+#$ -q isis_4+_threads
+#$ -m e
+#$ -M ragheb.rahmaniani@gmail.com
+python Runthisfile-Async.py S
